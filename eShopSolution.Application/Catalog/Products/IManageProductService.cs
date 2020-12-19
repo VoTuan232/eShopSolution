@@ -22,8 +22,6 @@ namespace eShopSolution.Application.Catalog.Products
 
         Task<int> Delete(int productId);
 
-        Task<List<ProductViewModel>> GetAll();
-
         Task<PagedResult<ProductViewModel>> GetAllPaging(GetProductPagingRequest request);
     }
 }

@@ -4,11 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using eShopSolution.Application.Catalog.Products.Dtos.Public;
+using System.Threading.Tasks;
 
 namespace eShopSolution.Application.Catalog.Products
 {
     public interface IPublicProductService
     {
-        PagedResult<ProductViewModel> GetAllByCategoryId(GetProductPagingRequest request);
+        Task<PagedResult<ProductViewModel>> GetAllByCategoryId(GetProductPagingRequest request);
     }
 }
