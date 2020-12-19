@@ -14,7 +14,3 @@ Install-Package Microsoft.EntityFrameworkCore.Tools:
 	-Scaffold-DbContext
 	-Script-Migrations
 	-Update-Database
-
-## Config EF
-+ Attribute: [Table("Products")], [Required] in class Entities
-+ Fluent API: config at outside Entities
