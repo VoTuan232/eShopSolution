@@ -5,3 +5,4 @@
 ##
 + Product vs Category: Many to Many
 + Order vs Order Detail: One to Many
++ Category vs CategoryTranslation: One to Many
