@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F83B3FA0-9A8C-40E9-985B-E77A275215E6}"
 	ProjectSection(SolutionItems) = preProject
 		EntityFramework.md = EntityFramework.md
+		Identity.md = Identity.md
 		README.md = README.md
 		Step.md = Step.md
 	EndProjectSection
