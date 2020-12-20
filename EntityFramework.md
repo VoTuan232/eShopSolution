@@ -1,6 +1,6 @@
-# Configuration EF: 2 Types
+﻿# Configuration EF: 2 Types
 + Attribute: [Table("Products")], [Required] in class Entities
-+ Fluent API: config at outside Entities (***)
++ Fluent API: config at outside Entities (***) - Kế thừa từ IEntityTypeConfiguration
 
 # RelationShip
 + Product vs Category: Many to Many
