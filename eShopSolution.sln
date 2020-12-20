@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solut
 		Identity.md = Identity.md
 		Image.md = Image.md
 		Login.md = Login.md
+		Razor.md = Razor.md
 		README.md = README.md
 		Step.md = Step.md
 		Structure.md = Structure.md
@@ -88,6 +89,7 @@ Global
 		{875F2FF9-8E23-49A3-8EA1-1288B389034B} = {B5B0F78A-8571-4F0D-A7CF-2D82073BC0DE}
 		{A8F9A500-CA2F-4F4C-AF44-ADA564F85EBF} = {B5B0F78A-8571-4F0D-A7CF-2D82073BC0DE}
 		{05CB91FB-1BB8-46B8-8851-1C180564398A} = {EBFD4BEA-5E8A-4F9F-A46E-5A5664A7C1AD}
+		{4DDBA2FD-7965-41DF-A5F8-EB82B94BF21B} = {EBFD4BEA-5E8A-4F9F-A46E-5A5664A7C1AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A19F94A3-BD92-4E3F-B4EA-0663FC5BF805}

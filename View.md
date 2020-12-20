@@ -11,3 +11,5 @@
 
 - @ViewData["Title"]
 Pass value `Title` from child to parent
+
+## Admin template: https://startbootstrap.com/templates/sb-admin/
