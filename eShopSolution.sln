@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solution Items", "{F83B3FA0-9A8C-40E9-985B-E77A275215E6}"
 	ProjectSection(SolutionItems) = preProject
 		Application_layer.md = Application_layer.md
+		Authorization.md = Authorization.md
 		EntityFramework.md = EntityFramework.md
 		Identity.md = Identity.md
 		Image.md = Image.md
