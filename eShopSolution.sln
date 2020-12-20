@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.WebApp", "eSh
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solution Items", "{F83B3FA0-9A8C-40E9-985B-E77A275215E6}"
 	ProjectSection(SolutionItems) = preProject
+		Admin-page.md = Admin-page.md
 		Application_layer.md = Application_layer.md
 		Authorization.md = Authorization.md
 		EntityFramework.md = EntityFramework.md
@@ -18,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solut
 		Step.md = Step.md
 		Structure.md = Structure.md
 		Swagger.md = Swagger.md
+		View.md = View.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.Data", "eShopSolution.Data\eShopSolution.Data.csproj", "{77D2D824-F401-4D60-A0C1-D9BB22397400}"
@@ -37,6 +39,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{448FD831-07A9-47F0-B837-EF7812EBEA36}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Hosts", "3.Hosts", "{EBFD4BEA-5E8A-4F9F-A46E-5A5664A7C1AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.AdminApp", "eShopSolution.AdminApp\eShopSolution.AdminApp.csproj", "{4DDBA2FD-7965-41DF-A5F8-EB82B94BF21B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +72,10 @@ Global
 		{05CB91FB-1BB8-46B8-8851-1C180564398A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05CB91FB-1BB8-46B8-8851-1C180564398A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05CB91FB-1BB8-46B8-8851-1C180564398A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDBA2FD-7965-41DF-A5F8-EB82B94BF21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDBA2FD-7965-41DF-A5F8-EB82B94BF21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDBA2FD-7965-41DF-A5F8-EB82B94BF21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDBA2FD-7965-41DF-A5F8-EB82B94BF21B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
