@@ -19,6 +19,9 @@ using eShopSolution.Data.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using eShopSolution.ViewModels.System.Users;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 
 namespace eShopSolution.BackendApi
 {
@@ -50,7 +53,13 @@ namespace eShopSolution.BackendApi
             services.AddTransient<IUserService, UserService>();
 
             // services.AddControllersWithViews();
-            services.AddControllers();
+            // services.AddControllers();
+
+            //services.AddTransient<IValidator<LoginRequest>, LoginRequestValidator>();
+            //services.AddTransient<IValidator<RegisterRequest>, RegisterRequestValidator>();
+
+            services.AddControllers()
+                .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<LoginRequestValidator>());
 
             services.AddSwaggerGen(c =>
             {

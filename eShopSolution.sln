@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solut
 		Application_layer.md = Application_layer.md
 		Authorization.md = Authorization.md
 		EntityFramework.md = EntityFramework.md
+		Fluent-Validation.md = Fluent-Validation.md
 		Identity.md = Identity.md
 		Image.md = Image.md
 		Login.md = Login.md
